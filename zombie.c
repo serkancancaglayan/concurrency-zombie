@@ -79,13 +79,13 @@ void *slayer(void *n){
 	while(1){
 		pthread_mutex_lock(&m);
 		if(tooManyZombiesInTheRoom()){
-				printf("Too many zombies in the room...\n");
-				exit(EXIT_FAILURE);
-			}
-			else if(killed100Zombies()){
-				printf("Slayer killed 100 zombies!\n");
-				exit(EXIT_SUCCESS);
-			}
+			printf("Too many zombies in the room...\n");
+			exit(EXIT_FAILURE);
+		}
+		else if(killed100Zombies()){
+			printf("Slayer killed 100 zombies!\n");
+			exit(EXIT_SUCCESS);
+		}
 		if(zombiesExist()){
 			zombieKilled();
 			//printf("Slayer killed a zombie %d\n",getInTheRoomCount());
