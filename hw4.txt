@@ -1,0 +1,3 @@
+10a kadar doorman sayilari verdim ve her birini 5'er kez calistirdim.
+4 ve 4den fazla doorman oldugunda odaya cok fazla zombie giriyor.
+Optimum doorman sayisi --> 3
